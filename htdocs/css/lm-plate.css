@@ -119,7 +119,7 @@ section
 section.banner {
     overflow: hidden;
     height: 300px;
-    background-color: #5A2CA0;
+    background-color: #0D8A00;
     align-items: stretch;
 }
 
@@ -154,7 +154,7 @@ section.banner {
 #slideshow h2
 {
 	position:absolute;
-	background-color:rgba(168,139,239,.75);
+	background-color:rgba(85,214,72,.75);
 	color:#eee;
 	width:100%;
 	margin-top:30;
