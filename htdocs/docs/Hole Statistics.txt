@@ -1,0 +1,8 @@
+Display the following statistics on the hole page:
+Best score for the hole
+lowest score for the hole
+average score for the hole
+---optional stats---
+median and mode scores
+standard deviation of scores
+average score at that point in the game(summation of all previous hole averages)
