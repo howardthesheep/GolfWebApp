@@ -1,0 +1,231 @@
+/* "plate.css" is to be used by websites that follow the lm design standards.
+ * We relize that our standards cannot be the best ones out there.
+ * but we are confident that it's damn well near close.
+ */
+ 
+body
+{
+	/*box-shadow: 0px 0px 50px black;*/
+	margin:0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing:0.05em;
+	font-size:18px;
+	text-rendering: optimizelegibility;
+	line-height: 1.25;
+}
+header
+{
+	padding:20px 0;
+	font-family: 'Cormorant SC', serif;
+	background-image:url("/img/crosshair.png");
+}
+
+header,footer
+{
+	text-align:center;
+}
+
+nav
+{
+	display:inline-block;
+	text-align:left;
+}
+
+header a
+{
+	color:#333;
+}
+
+#Menu > *
+{
+	display:inline-block;
+	padding:15px 30px;
+	border-bottom:0px solid #8965E4;
+	transition:all .25s;
+	position:relative;
+}
+
+#Menu > *:hover, #Menu > div:hover
+{
+	/*color:#fff;
+	background-color:#8965E4;*/
+	border-bottom:5px solid #8965E4;
+	font-size: 1.2em;
+}
+
+.drop > *
+{
+	display:block;
+}
+
+.drop > nav
+{
+	display:none;
+	position:absolute;
+	z-index:99;
+	width:340px;
+	left: -75px;
+	/* See #Menu > *  (padding) and #Menu > div:hover (border-bottom) */
+	margin-top:20px;
+	margin-left:-30px; 
+	background-color:#DDD;
+	font-size:0.8em;
+}
+
+.drop > nav > *::before
+{	
+	
+	margin-left:-10px;
+	margin-right:3px;
+	color:#B9B9B9;
+}
+
+.drop > nav > *::after
+{
+	content: "";
+	margin: 0 auto;
+	display: block;
+	width: 70%;
+	height: 1px;
+	background-color: rgb(102,131,227);
+	background: linear-gradient(to left,rgba(0,0,0,0), #B9B9B9, rgba(0,0,0,0));
+}
+
+.drop > nav > *
+{
+	font-family: 'Open Sans Condensed';
+	font-size: 18px;
+	display:block;
+	text-align:left;
+	padding:6px 15px;
+}
+
+.drop > nav > *:hover
+{
+	padding-left: 30px;
+	background-color:#fff;
+	transition: all .3s;
+}
+
+
+section
+{	
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items:flex-start;
+}
+
+section.banner {
+    overflow: hidden;
+    height: 300px;
+    background-color: #5A2CA0;
+    align-items: stretch;
+}
+
+#title
+{
+	padding-left: 15px;
+}
+
+#logo
+{
+	height:100px;
+	display:inline-block;
+	margin-right: 20px;
+}
+
+#logo,#title
+{
+	vertical-align:middle;
+	display:inline-block;
+}
+
+
+
+#slideshow
+{
+	width:1200px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px 1px #1b043e;
+}
+
+#slideshow h2
+{
+	position:absolute;
+	background-color:rgba(168,139,239,.75);
+	color:#eee;
+	width:100%;
+	margin-top:30;
+	padding:0.2em 1em;
+}
+
+#slideshow div {
+    position: absolute;
+    width:100%;
+    display:block;
+    
+}
+#slideshow div img
+{
+	display:block;
+	width:100%;
+	
+}
+
+main, aside
+{
+	display:block;
+	box-sizing:border-box;
+	padding:10px;
+	margin:20px;
+}
+
+aside
+{
+	width:300px;
+}
+
+main
+{
+	width:900px;
+}
+
+
+
+
+article
+{
+	display:block;
+	margin:1.5em auto;
+}
+
+footer
+{
+	background-color:#bbb;
+	padding:20px 0;
+	border-top:40px solid #5A2CA0;
+	font-size:0.9em;
+}
+
+footer nav
+{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	height:50px;
+	max-width:300px;
+	margin:10 auto;
+}
+
+footer::after
+{
+	content: "";
+	margin: 0 auto;
+	display: block;
+	width: 75%;
+	height: 2px;
+	background-color: rgb(102,131,227);
+	background: linear-gradient(to left,rgba(0,0,0,0), #8965E4, rgba(0,0,0,0));
+}

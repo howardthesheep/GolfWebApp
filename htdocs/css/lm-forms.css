@@ -1,0 +1,68 @@
+/*******************************************************
+Forms
+********************************************************/
+/* Buttons */
+button, .laz-btn, input[type=submit], input[type=button]
+{
+	padding: 10px 15px;
+	display: inline-block;
+	cursor: pointer;
+	border:none;
+	font-family:inherit;
+	font-size:inherit;
+	text-decoration:none;
+	text-align:center;
+	background-color:#DDD;
+}
+
+button:hover, .laz-btn:hover, input[type=submit]:hover, input[type=button]:hover
+{
+	transition-property:background-color;
+	transition-duration: 0.2s;
+	background: #55AAff;
+}
+
+button:disabled, .laz-btn:disabled, input[type=submit]:disabled, input[type=button]:disabled
+{
+	color:#EFEFEF;
+	background-color: #AAA;
+}
+
+/* text */
+input:not([type="button"]):not([type="submit"]), textarea, select
+{
+	font-family:inherit;
+	font-size:inherit;
+	padding:7px;
+	border:1px solid grey;
+}
+
+textarea
+{
+	width:100%;
+}
+
+input:disabled,input[readonly], textarea:disabled, textarea[readonly], select:disabled,select[readonly]
+{
+	color:#DFDFDF;
+	background-color: #999;
+}
+
+input:focus, textarea:focus
+{
+	outline:3px solid #55AAff;
+}
+
+
+
+/* misc */
+input[type=file]
+{
+	width:100%;
+}
+
+input[type=search]
+{
+	width:100%;
+}
+

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1400px)
+{
+	
+	table
+	{
+		display:block;
+		overflow:auto;
+	}
+	
+	section
+	{
+		display:block;
+	}
+	
+	section#banner
+	{
+		display:flex;
+	}
+	
+	aside, main
+	{
+		width:100%;
+		margin:0px;
+	}
+	
+	fieldset > usrin
+	{
+		display:block;
+	}
+}

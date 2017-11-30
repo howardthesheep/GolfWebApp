@@ -1,0 +1,142 @@
+html
+{
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+}
+
+a:hover, a:active
+{
+    color: #7064A0;
+}
+
+body
+{
+
+}
+
+h1
+{
+	font-size:2.5em;
+}
+
+h2
+{
+	font-size:2.1em;
+}
+
+h3
+{
+	font-size:1.7em;
+}
+
+h4
+{
+	font-size:1.4em;
+}
+
+h5
+{
+	font-size:1.2em;
+}
+
+h6
+{
+	font-size:1.2em;
+}
+h1, h2, h3, h4, h5, h6
+{
+	margin:8px 0;
+	font-family: 'Cormorant SC', serif;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+p
+{
+	margin:0.8em auto;
+}
+
+code
+{
+	display:block;
+	font-family:monospace;
+	white-space:pre;
+	overflow-x:auto;
+}
+
+ul,ol
+{
+	margin: 0.2em 0;
+}
+
+neg,bad,error
+{
+	display:block;
+	color: red;
+}
+
+pos,good,success
+{
+	display:block;
+	color:green;
+}
+
+usrin
+{
+	display:block;
+}
+
+fieldset > usrin
+{
+	display:inline-block;
+}
+
+fieldset
+{
+	display:block;
+}
+
+usrin label, usrin label, usrin label, usrin label
+{
+	display:block;
+}
+
+table
+{
+	width:100%;
+}
+table tr
+{
+	
+}
+table tr:hover td
+{
+	background-color:#EEEEEE;
+}
+table td, table th
+{
+	background-color:#F7F7F7;
+	border:none;
+	padding:5px;
+}
+table th
+{
+	background-color:#F0F0F0;
+	font-weight:bold;
+}
+
+img
+{
+	display:block;
+	max-width:100%;
+	
+}
