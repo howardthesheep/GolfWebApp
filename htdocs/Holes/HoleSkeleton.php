@@ -1,7 +1,7 @@
 <?php
 	 define("PAGE_TITLE", 'Home');
 	 include("template/header.php");?>
-
+	 <section class="content">
 	 <main class="Hole">
 	    <h2>Hole Skeleton</h2>
 
@@ -45,5 +45,5 @@
 
 	    </article>
 	</main>
-
+</section>
 <?php include("template/footer.php");?>
