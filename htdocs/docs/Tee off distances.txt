@@ -1,0 +1,149 @@
+Hole 1:
+Par 4
+Tournament 422
+Back 403
+Middle 378
+Intermediate 353
+Forward 321
+
+Hole 2:
+Par 3
+Tournament 214
+Back 193
+Middle 168
+Intermediate 140
+Forward 104
+
+Hole 3:
+Par 4
+Tournament 411
+Back 378
+Middle 349
+Intermediate 323
+Forward 286
+
+Hole 4:
+Par 4
+Tournament 440
+Back 422
+Middle 385
+Intermediate 358
+Forward 311
+
+Hole 5:
+Par 4
+Tournament 393
+Back 361
+Middle 326
+Intermediate 300
+Forward 254
+
+Hole 6:
+Par 5
+Tournament 662
+Back 614
+Middle 564
+Intermediate 524
+Forward 479
+
+Hole 7:
+Par 3
+Tournament 258
+Back 220
+Middle 190
+Intermediate 148
+Forward 117
+
+Hole 8:
+Par 4
+Tournament 334
+Back 403
+Middle 278
+Intermediate 265
+Forward 202
+
+Hole 9:
+Par 5
+Tournament 575
+Back 545
+Middle 524
+Intermediate 446
+Forward 388
+
+Hole 10:
+Par 5
+Tournament 530
+Back 510
+Middle 486
+Intermediate 435
+Forward 339
+
+Hole 11:
+Par 4
+Tournament 467
+Back 425
+Middle 395
+Intermediate 369
+Forward 301
+
+Hole 12:
+Par 3
+Tournament 176
+Back 161
+Middle 139
+Intermediate 108
+Forward 83
+
+Hole 13:
+Par 4
+Tournament 450
+Back 422
+Middle 390
+Intermediate 349
+Forward 302
+
+Hole 14:
+Par 4
+Tournament 431
+Back 411
+Middle 380
+Intermediate 341
+Forward 310
+
+Hole 15:
+Par 5
+Tournament 525
+Back 498
+Middle 482
+Intermediate 430
+Forward 364
+
+Hole 16: 
+Par 3
+Tournament 177
+Back 135
+Middle 123
+Intermediate 103
+Forward 82
+
+
+Hole 17:
+Par 4
+Tournament 353
+Back 325
+Middle 309
+Intermediate 273
+Forward 228
+
+Hole 18:
+Par 4
+Tournament 402
+Back 386
+Middle 368
+Intermediate 330
+Forward 261
+
+
+
+
+
