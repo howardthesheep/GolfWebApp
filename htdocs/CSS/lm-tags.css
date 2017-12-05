@@ -114,15 +114,11 @@ table
 {
 	width:100%;
 }
-table tr
-{
-	background-color:#56D648
-}
-table tr:hover
+table tbody tr:hover
 {
 	background-color:#0D8A00;
 }
-table td, table th
+table tbody tr td
 {
 	background-color:#56D648;
 	border:none;
