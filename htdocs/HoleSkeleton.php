@@ -8,8 +8,8 @@
 	    <article>
 			<p style="display:flex;justify-content:space-evenly;">
 				
-				<img style="max-height:100px;display:inline-block;" src="img/logo-big.png"> <!--HOLE IMAGE GOES HERE-->
-				<table width="150" style="padding: 3px; border: 1px solid #000000; font-family: Century Gothic; font-size: 12pt; font-weight: bold;" border="0" cellspacing="0" cellpadding="0">
+				<img style="max-height:100px;display:inline-block;" src="img/Golf Images/hole1.jpg"> <!--HOLE IMAGE GOES HERE-->
+				<table>
 					<tbody>
 						<tr>
 							<td valign="top" colspan="2"><p align="center">&nbsp;Hole 1</p></td>
@@ -41,7 +41,7 @@
 					</tbody>
 				</table>
 			</p>
-	      	<p> (HOLE DESCRIPTION GOES HERE)</p>
+	      	<p>The opening hole at Old Hawthorne embodies many of the attributes of the other holes throughout the golf course, a beautiful natural setting, a wide playing corridor and a variety of strategic options.  The mid-length par 4 plays from atop a large bluff, sharply downhill from the tees to a green nestled up to Grindstone Creek.  Players who are distracted by the beauty of the surroundings run the risk of missing the subtleties of the strategy here.  The wide, bunkerless fairway will require some attention if players want to set up their approach shot to the green.  The crowned fairway will direct shots left or right depending upon where the tee shot lands.  The hole location and the deep greenside bunker will help influence which part of the fairway players will want to play to.</p>
 
 	    </article>
 	</main>
