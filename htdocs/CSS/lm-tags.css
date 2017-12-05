@@ -114,13 +114,16 @@ table
 {
 	width:100%;
 }
+table tbody tr
+{
+	background-color:#56D648;
+}
 table tbody tr:hover
 {
-	background-color:#0D8A00;
+	background-color:#7CE371;
 }
 table tbody tr td
 {
-	background-color:#56D648;
 	border:none;
 	padding:5px;
 }
