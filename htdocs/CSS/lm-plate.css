@@ -219,6 +219,7 @@ footer nav
 	margin:10 auto;
 }
 
+/*
 footer::after
 {
 	content: "";
@@ -228,4 +229,4 @@ footer::after
 	height: 2px;
 	background-color: rgb(102,131,227);
 	background: linear-gradient(to left,rgba(0,0,0,0), #8965E4, rgba(0,0,0,0));
-}
+}*/
