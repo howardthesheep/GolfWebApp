@@ -3,6 +3,10 @@
     include("template/header.php");
     session_start();
     include('session.php');
+    if(!isset($_SESSION['login']))
+    {
+        header("Location: login.php");
+    }
     function addScore(){
         $score = $_POST['score'];
         $hole = $_POST['hole'] ? $_POST['hole'] : 'uncategorized';
