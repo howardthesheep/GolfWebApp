@@ -27,14 +27,6 @@ section.content aside
 {
 
 }
-
-section.content main, aside
-{
-	background-image: url(/img/targ.png);
-	background-position:left bottom;
-	background-repeat: no-repeat;
-}
-
 section.content aside nav
 {
 	padding:16px;
