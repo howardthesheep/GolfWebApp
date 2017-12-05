@@ -44,4 +44,3 @@
 	    </article>
 	</main>
 </section>
-<?php include("template/footer.php");?>
