@@ -15,7 +15,7 @@
         if($count == 1){
 //            session_register("myusername");
             $_SESSION['login_user'] = $myusername;
-            header("location: home.php");
+            header("location: htdocs/score.php");
         }
         else{
             $error = "Username or password incorrect. Try again...";
