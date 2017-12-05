@@ -1,5 +1,5 @@
 <?php
-	 define("PAGE_TITLE", 'Home');
+	 define("PAGE_TITLE", 'Hole');
 	 include("template/header.php");?>
 	 <section class="content">
 	 <main class="Hole">
