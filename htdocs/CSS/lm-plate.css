@@ -189,15 +189,15 @@ aside
 
 .widget
 {
-	display: block;
+	display: table;
 	height: 400px;
 	width: 400px;
 	text-align: center;
-	line-height: 190px;
 }
 
 .widget a
 {
+	display: table-cell;
 	vertical-align: middle;
 }
 
