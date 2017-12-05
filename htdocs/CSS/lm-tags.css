@@ -120,17 +120,17 @@ table tr
 }
 table tr:hover td
 {
-	background-color:#EEEEEE;
+	background-color:#0D8A00;
 }
 table td, table th
 {
-	background-color:#F7F7F7;
+	background-color:#56D648;
 	border:none;
 	padding:5px;
 }
 table th
 {
-	background-color:#F0F0F0;
+	background-color:#56D648;
 	font-weight:bold;
 }
 

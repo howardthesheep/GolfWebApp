@@ -6,10 +6,10 @@
 	    <h2>Hole Skeleton</h2>
 
 	    <article>
-			<p style="display:flex;justify-content:space-evenly;">
+			<p style="display:flex;justify-content:center;">
 				
-				<img style="max-height:100px;display:inline-block;" src="img/Golf Images/hole1.jpg"> <!--HOLE IMAGE GOES HERE-->
-				<table>
+				<img src="img/Golf Images/hole1.jpg"> <!--HOLE IMAGE GOES HERE-->
+				<table style="width: 25%; margin-left: 10%;">
 					<tbody>
 						<tr>
 							<td valign="top" colspan="2"><p align="center">&nbsp;Hole 1</p></td>
