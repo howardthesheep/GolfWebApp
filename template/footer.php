@@ -9,7 +9,6 @@
 			<a href="/projects/">Projects</a>
 		</nav>
 		<p>&copy; Marschke Engineering, all rights reserved.</p>-->
-		
 	</footer>
 </body>
 </html>

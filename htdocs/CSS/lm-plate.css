@@ -193,6 +193,16 @@ aside
 	width: 400px;
 }
 
+.widget a
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
 main
 {
 	width:900px;
