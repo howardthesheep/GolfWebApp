@@ -40,7 +40,7 @@
 	<aside style="padding-top: 0px;">
 	    <h4>Explore</h4>
 	    <nav>
-			<a href="/about">Who we are (About)</a>
+			<a href="/HoleSkeleton">Hole Skeleton</a>
 			<a href="/services/">What we do (Services)</a>
 			<!--a href="/clients/">Who we serve (Clients)</a>
 				<a href="/projects/">What we've done (Projects)</a-->
