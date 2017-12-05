@@ -8,11 +8,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
 	
-	<link rel="stylesheet" type="text/css" href="/css/lm-tags.css">
-	<link rel="stylesheet" type="text/css" href="/css/section.css">
-	<link rel="stylesheet" type="text/css" href="/css/lm-plate.css">
-	<link rel="stylesheet" type="text/css" href="/css/lm-forms.css">
-	<link rel="stylesheet" type="text/css" href="/css/lm-plate-mobile.css">	
+	<link rel="stylesheet" type="text/css" href="/CSS/lm-tags.css">
+	<link rel="stylesheet" type="text/css" href="/CSS/section.css">
+	<link rel="stylesheet" type="text/css" href="/CSS/lm-plate.css">
+	<link rel="stylesheet" type="text/css" href="/CSS/lm-forms.css">
+	<link rel="stylesheet" type="text/css" href="/CSS/lm-plate-mobile.css">	
 	<script src="/js/jquery.min.js"></script>
 </head>
 
