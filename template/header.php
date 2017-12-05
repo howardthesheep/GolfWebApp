@@ -1,6 +1,6 @@
 <html lang="en-US">
 <head>
-	<title><?=PAGE_TITLE?> - Midwest Engineering</title>
+	<title><?=PAGE_TITLE?> - Golf Stats Web Application</title>
 	<meta name="MobileOtimized" content="width">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,36 +18,5 @@
 
 <body>
 	<header>
-		<a href="/"><img src="/img/logo-big.png" id="logo"></a>
-		<nav id="Menu">
-			<a href="/about">About</a>
-			<a href="/locations">Our Locations</a>
-			<!--a href="/clients">Our Clients</a-->
-			<div class="drop">
-				<a href="/services/">Services</a>
-				<nav>
-					<?php include("htdocs/services/services-list.inc.php") ?>
-				</nav>
-			</div>
-			<!--div class="drop">
-				<a href="/projects/">Projects</a>
-				<nav>
-					<?php include("htdocs/projects/project-list.inc.php") ?>
-				</nav>
-			</div-->
-		</nav>
+		<a href="/"><img src="/img/Golf Images/oldHawthorneLogo.png" id="logo"></a>
 	</header>
-	<script>
-		$(".drop").hover(function(e)
-		{
-			child = $(this).find("nav");
-			if(!child.data("h"))
-			{
-				child.data("h", child.height());
-				child.height(0);
-			}
-			child.data("d", !child.data("d"));
-			child.toggle(child.data("d"));
-			child.animate( {height: (child.data("d") ? child.data("h") : "0px")}, 500);
-		});
-	</script>
