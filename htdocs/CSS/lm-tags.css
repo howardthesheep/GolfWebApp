@@ -116,7 +116,7 @@ table
 }
 table tbody tr
 {
-	background-color:#56D648;
+	border-bottom: 1px solid #56D648;
 }
 table tbody tr:hover
 {
@@ -127,10 +127,11 @@ table tbody tr td
 	border:none;
 	padding:5px;
 }
-table th
+table tbody th
 {
-	background-color:#56D648;
+	background-color:#4CAF50;
 	font-weight:bold;
+	color: white;
 }
 
 img

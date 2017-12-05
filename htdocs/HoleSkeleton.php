@@ -11,9 +11,9 @@
 				<img src="img/Golf Images/hole1.jpg"> <!--HOLE IMAGE GOES HERE-->
 				<table style="width: 25%; margin-left: 10%;">
 					<tbody>
-						<tr>
+						<th>
 							<td valign="top" colspan="2"><p align="center">&nbsp;Hole 1</p></td>
-						</tr>
+						</th>
 						<tr>
 							<td>Par</td>
 							<td>4</td>
