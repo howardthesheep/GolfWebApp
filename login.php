@@ -26,7 +26,7 @@
 <html>
     <head>
         <meta content="text/html; charset=utf-8"/>
-        <link rel="stylesheet" href="site.css" type="text/css">
+<!--        <link rel="stylesheet" href="site.css" type="text/css">-->
         <title>Golf 2.0</title>
     </head>
     <body>
