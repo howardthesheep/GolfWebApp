@@ -199,16 +199,21 @@ aside
 {
 	display: table-cell;
 	vertical-align: middle;
+	border-bottom:0px solid #8965E4;
+	transition:all .25s;
 }
+
+.widget a:hover
+{
+	border-bottom:5px solid #8965E4;
+	font-size: 1.2em;
+}
+
 
 main
 {
 	width:900px;
 }
-
-
-
-
 article
 {
 	display:block;
