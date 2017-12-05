@@ -116,9 +116,9 @@ table
 }
 table tr
 {
-	
+	background-color:#56D648
 }
-table tr:hover td
+table tr:hover
 {
 	background-color:#0D8A00;
 }
