@@ -47,3 +47,4 @@
 		</nav>
 	</aside>
 </section>
+<?php include("template/footer.php");?>
