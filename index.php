@@ -9,6 +9,12 @@
 	    </a>
 	</aside>	
 
+    <aside class="widget">
+		<a href="/score.php">
+	    	<h3>Scorecard</h3>
+	    </a>
+	</aside>
+    
 	<aside class="widget">
 		<a href="/about.php">
 	    	<h3>About Us</h3>
