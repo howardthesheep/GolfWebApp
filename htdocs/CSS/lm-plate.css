@@ -187,6 +187,12 @@ aside
 	width:300px;
 }
 
+.widget
+{
+	display: block;
+	width: 400px;
+}
+
 main
 {
 	width:900px;
