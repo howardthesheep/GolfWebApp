@@ -112,7 +112,15 @@ usrin label, usrin label, usrin label, usrin label
 
 table
 {
+	border-collapse: collapse;
 	width:100%;
+}
+table tbody th
+{
+	background-color:#4CAF50;
+	font-weight:bold;
+	color: white;
+	padding: 5px;
 }
 table tbody tr
 {
@@ -124,16 +132,8 @@ table tbody tr:hover
 }
 table tbody tr td
 {
-	border:none;
 	padding:5px;
 }
-table tbody th
-{
-	background-color:#4CAF50;
-	font-weight:bold;
-	color: white;
-}
-
 img
 {
 	display:block;
