@@ -190,17 +190,15 @@ aside
 .widget
 {
 	display: block;
+	height: 400px;
 	width: 400px;
+	text-align: center;
+	line-height: 190px;
 }
 
 .widget a
 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	width: 300px;
+	vertical-align: middle;
 }
 
 main
