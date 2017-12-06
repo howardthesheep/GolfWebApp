@@ -5,7 +5,7 @@
 <section class="content">
 	<aside class="widget">
 		<a href="/HoleSkeleton.php">
-	    	<h3>Hole Directory</h3>
+	    	<h3>Course Tour</h3>
 	    </a>
 	</aside>	
 
@@ -14,7 +14,8 @@
 	    	<h3>Scorecard</h3>
 	    </a>
 	</aside>
-    
+</section>
+<section class="content">   
 	<aside class="widget">
 		<a href="/about.php">
 	    	<h3>About Us</h3>
