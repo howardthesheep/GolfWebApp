@@ -191,7 +191,7 @@ aside
 .widget
 {
 	display: table;
-	height: 260px;
+	height: 300px;
 	width: 260px;
 	text-align: center;
 }
@@ -211,9 +211,15 @@ aside
 	font-size: 1.2em;
 	color: rgba(23, 121, 13, 0.75);
 }
+
+#homepage
+{
+	width: 100%;
+}
+
 main
 {
-	width: 90%;
+	width:900px;
 }
 article
 {

@@ -1,7 +1,7 @@
 <?php
 	 define("PAGE_TITLE", 'Home');
 	 include("template/header.php");?>
-<main>
+<section id="homepage">
 	<section class="content">
 		<aside class="widget">
 			<a href="/HoleSkeleton.php">
@@ -22,5 +22,5 @@
 		    </a>
 		</aside>
 	</section>
-</main>
+</section>
 <?php include("template/footer.php");?>
