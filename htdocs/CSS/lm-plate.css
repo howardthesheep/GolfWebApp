@@ -200,7 +200,7 @@ aside
 {
 	display: table-cell;
 	vertical-align: middle;
-	border:1px solid #3EC330;
+	border:3px solid #3EC330;
 	color: #3EC330;
 	transition:all .25s;
 }
@@ -222,7 +222,7 @@ aside
 	width: 100%;
 	height: 800px;
 	display: block;
-	background-image: url(/img/Golf Images/backgroundImage.jpg);
+	background-image: url("/img/Golf Images/backgroundImage.jpg");
 	background-repeat: no-repeat;
 }
 
