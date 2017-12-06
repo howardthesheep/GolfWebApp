@@ -200,14 +200,16 @@ aside
 {
 	display: table-cell;
 	vertical-align: middle;
-	border:1px solid #8965E4;
+	border:1px solid #3EC330;
+	color: #3EC330;
 	transition:all .25s;
 }
 
 .widget a:hover
 {
-	border:8px solid #8965E4;
+	border:8px solid rgba(23, 121, 13, 0.75);
 	font-size: 1.2em;
+	color: rgba(23, 121, 13, 0.75);
 }
 
 
