@@ -36,7 +36,6 @@
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">
                     <h2>Login</h2>
                     <input type="text" name="user" value placeholder="Username" maxlength="255" size="25">
-                    <br>
                     <input type="password" name="pass" value placeholder="Password" maxlength="255" size="25">
                     <br>
                     <input type="submit" name="submit" value="Login">
