@@ -1,5 +1,6 @@
 <?php
    include('db_credentials.php');
+    session_set_cookie_params(0);
    session_start();
     $conn = new mysqli($servername, $username, $password, $dbname);
    
