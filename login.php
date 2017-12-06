@@ -1,5 +1,6 @@
 <?php
     session_start();
+    define("PAGE_TITLE", 'Login');
     require ('db_credentials.php');
     $conn = new mysqli($servername, $username, $password, $dbname);
 
