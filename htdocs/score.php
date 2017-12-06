@@ -1,5 +1,5 @@
 <?php
-    define("PAGE_TITLE", 'Hole');
+    define("PAGE_TITLE", 'Scorecard');
     include("template/header.php");
     session_start();
     include('session.php');
