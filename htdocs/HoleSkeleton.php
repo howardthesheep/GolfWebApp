@@ -4,58 +4,58 @@
         if(isset($_POST['hole'])){
             switch($_POST['hole']){
                 case 1:
-                    header("location: Hole1.php");
+                    include("Hole1.php");
                     break;
                 case 2:
-                    header("location: Hole2.php");
+                    include("Hole2.php");
                     break;
                 case 3:
-                    header("location: Hole3.php");
+                    include("Hole3.php");
                     break;
                 case 4:
-                    header("location: Hole4.php");
+                    include("Hole4.php");
                     break;
                 case 5:
-                    header("location: Hole5.php");
+                    include("Hole5.php");
                     break;
                 case 6:
-                    header("location: Hole6.php");
+                    include("Hole6.php");
                     break;
                 case 7:
-                    header("location: Hole7.php");
+                    include("Hole7.php");
                     break;
                 case 8:
-                    header("location: Hole8.php");
+                    include("Hole8.php");
                     break;
                 case 9:
-                    header("location: Hole9.php");
+                    include("Hole9.php");
                     break;
                 case 10:
-                    header("location: Hole10.php");
+                    include("Hole10.php");
                     break;
                 case 11:
-                    header("location: Hole11.php");
+                    include("Hole11.php");
                     break;
                 case 12:
-                    header("location: Hole12.php");
+                    include("Hole12.php");
                     break;
                 case 13:
-                    header("location: Hole13.php");
+                    include("Hole13.php");
                     break;
                 case 14:
-                    header("location: Hole14.php");
+                    include("Hole14.php");
                     break;
                 case 15:
-                    header("location: Hole15.php");
+                    include("Hole15.php");
                     break;
                 case 16:
-                    header("location: Hole16.php");
+                    include("Hole16.php");
                     break;
                 case 17:
-                    header("location: Hole17.php");
+                    include("Hole17.php");
                     break;
                 case 18:
-                    header("location: Hole18.php");
+                    include("Hole18.php");
                     break;
             }
         }
