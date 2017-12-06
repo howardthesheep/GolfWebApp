@@ -222,6 +222,8 @@ aside
 	width: 100%;
 	height: 800px;
 	display: block;
+	background-image: url(/img/Golf Images/backgroundImage.jpg);
+	background-repeat: no-repeat;
 }
 
 main
