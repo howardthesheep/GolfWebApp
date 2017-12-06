@@ -1,5 +1,5 @@
 <?php
-	 define("PAGE_TITLE", 'Home');
+	 define("PAGE_TITLE", 'About');
 	 include("template/header.php");?>
 
 	 <!-- HTML goes here -->
