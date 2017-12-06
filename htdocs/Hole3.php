@@ -3,37 +3,37 @@
 	    <article>
 			<p style="display:flex;justify-content:center;">
 				
-				<img src="img/Golf Images/hole1.jpg"> <!--HOLE IMAGE GOES HERE-->
+				<img src="img/Golf Images/hole3.jpg"> <!--HOLE IMAGE GOES HERE-->
 				<table style="width: 25%; margin-left: 10%;">
 					<tbody>
-						<th align="center" valign="top" colspan="2">Hole 1</th>
+						<th align="center" valign="top" colspan="2">Hole 3</th>
 						<tr>
 							<td>Par</td>
 							<td>4</td>
 						</tr>
 						<tr>
 							<td>Tournament</td>
-							<td>422</td>
+							<td>411</td>
 						</tr>
 						<tr>
 							<td>Back</td>
-							<td>403</td>
-						</tr>
-						<tr>
-							<td>Middle</td>
 							<td>378</td>
 						</tr>
 						<tr>
+							<td>Middle</td>
+							<td>349</td>
+						</tr>
+						<tr>
 							<td>Intermediate</td>
-							<td>353</td>
+							<td>323</td>
 						</tr>
 						<tr>
 							<td>Forward</td>
-							<td>321</td>
+							<td>286</td>
 						</tr>
 					</tbody>
 				</table>
 			</p>
-	      	<p>The opening hole at Old Hawthorne embodies many of the attributes of the other holes throughout the golf course, a beautiful natural setting, a wide playing corridor and a variety of strategic options.  The mid-length par 4 plays from atop a large bluff, sharply downhill from the tees to a green nestled up to Grindstone Creek.  Players who are distracted by the beauty of the surroundings run the risk of missing the subtleties of the strategy here.  The wide, bunkerless fairway will require some attention if players want to set up their approach shot to the green.  The crowned fairway will direct shots left or right depending upon where the tee shot lands.  The hole location and the deep greenside bunker will help influence which part of the fairway players will want to play to.</p>
+	      	<p>The 3rd hole is a neat, shorter par 4 playing 411 yards from the tournament tees.  The tees sit in the bottom of the valley with the landing area on top of a natural ridge coming in from the right-hand side.  A large intimidating bunker guards the left-hand side of the fairway and a smaller pot bunker up on top of the ridge splits the landing area into two halves.  The hole is a soft dogleg left and there is a lot of value in trying to carry into the left-hand portion of the fairway as it sets up a better angle of approach into the green and shortens the hole considerably.  The priority for the player off the tee though, needs to be getting their tee shot up on top of the ridge.  Balls that hit short on the slope quite possibly could roll back toward the tee, leaving the player with a longer, blind second shot over the ridge to the green.  At the green a large bunker guards the front right portion of the green and the fairway swings in from the left-hand side into the green.  The green itself is long and narrow and a large transition slope a third of the way into the green helps to create a variety of hole locations for the golfers.  This hole is about position and not so much about brute strength as the natural contours of the hole create quite a few options for the players.</p>
 
 	    </article>
