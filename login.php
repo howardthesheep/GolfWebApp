@@ -1,6 +1,7 @@
 <?php
     session_start();
     define("PAGE_TITLE", 'Login');
+    include("template/header.php");
     require ('db_credentials.php');
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -44,3 +45,4 @@
         </div>
     </body>
 </html>
+<?php include("template/footer.php");?>
