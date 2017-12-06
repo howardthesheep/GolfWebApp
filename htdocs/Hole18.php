@@ -1,3 +1,9 @@
+<?php
+    require("db_credentials.php");
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    $results = mysqli_query($conn,"SELECT * FROM `holes` LIMIT 1");
+    $row = mysqli_fetch_array($results);
+?>
 <h2>Hole Skeleton</h2>
 
 	    <article>
@@ -6,30 +12,30 @@
 				<img src="img/Golf Images/hole1.jpg"> <!--HOLE IMAGE GOES HERE-->
 				<table style="width: 25%; margin-left: 10%;">
 					<tbody>
-						<th align="center" valign="top" colspan="2">Hole 1</th>
+						<th align="center" valign="top" colspan="2">Hole <?php echo $row['id'];?></th>
 						<tr>
 							<td>Par</td>
-							<td>4</td>
+							<td><?php echo $row['par'];?></td>
 						</tr>
 						<tr>
 							<td>Tournament</td>
-							<td>422</td>
+							<td><?php echo $row['tournament'];?></td>
 						</tr>
 						<tr>
 							<td>Back</td>
-							<td>403</td>
+							<td><?php echo $row['back'];?></td>
 						</tr>
 						<tr>
 							<td>Middle</td>
-							<td>378</td>
+							<td><?php echo $row['middle'];?></td>
 						</tr>
 						<tr>
 							<td>Intermediate</td>
-							<td>353</td>
+							<td><?php echo $row['intermediate'];?></td>
 						</tr>
 						<tr>
 							<td>Forward</td>
-							<td>321</td>
+							<td><?php echo $row['forward'];?></td>
 						</tr>
 					</tbody>
 				</table>
