@@ -27,11 +27,9 @@
 <html>
     <head>
         <meta content="text/html; charset=utf-8"/>
-<!--        <link rel="stylesheet" href="site.css" type="text/css">-->
-        <title>Golf 2.0</title>
     </head>
     <body>
-        <div class="container" style="background-color: #20A0A0;">
+        <div>
             <div id="loginForm">
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">
                     <h2>Login</h2>
