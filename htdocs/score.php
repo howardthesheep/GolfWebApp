@@ -3,7 +3,7 @@
     include("template/header.php");
     session_start();
     include('session.php');
-    if(!isset($_SESSION['login']))
+    if(!isset($_SESSION['login_user']))
     {
         header("Location: login.php");
     }
