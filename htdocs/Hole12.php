@@ -3,37 +3,37 @@
 	    <article>
 			<p style="display:flex;justify-content:center;">
 				
-				<img src="img/Golf Images/hole1.jpg"> <!--HOLE IMAGE GOES HERE-->
+				<img src="img/Golf Images/hole12.jpg"> <!--HOLE IMAGE GOES HERE-->
 				<table style="width: 25%; margin-left: 10%;">
 					<tbody>
-						<th align="center" valign="top" colspan="2">Hole 1</th>
+						<th align="center" valign="top" colspan="2">Hole 12</th>
 						<tr>
 							<td>Par</td>
-							<td>4</td>
+							<td>3</td>
 						</tr>
 						<tr>
 							<td>Tournament</td>
-							<td>422</td>
+							<td>176</td>
 						</tr>
 						<tr>
 							<td>Back</td>
-							<td>403</td>
+							<td>161</td>
 						</tr>
 						<tr>
 							<td>Middle</td>
-							<td>378</td>
+							<td>139</td>
 						</tr>
 						<tr>
 							<td>Intermediate</td>
-							<td>353</td>
+							<td>108</td>
 						</tr>
 						<tr>
 							<td>Forward</td>
-							<td>321</td>
+							<td>83</td>
 						</tr>
 					</tbody>
 				</table>
 			</p>
-	      	<p>The opening hole at Old Hawthorne embodies many of the attributes of the other holes throughout the golf course, a beautiful natural setting, a wide playing corridor and a variety of strategic options.  The mid-length par 4 plays from atop a large bluff, sharply downhill from the tees to a green nestled up to Grindstone Creek.  Players who are distracted by the beauty of the surroundings run the risk of missing the subtleties of the strategy here.  The wide, bunkerless fairway will require some attention if players want to set up their approach shot to the green.  The crowned fairway will direct shots left or right depending upon where the tee shot lands.  The hole location and the deep greenside bunker will help influence which part of the fairway players will want to play to.</p>
+	      	<p>The 12th hole is a mid-length par 3 playing slightly uphill from tee to green.   The green is nicely framed by two sizable trees and fronted by a sharp slope with a trio of bunkers resting at the foot of the slope.  It's all carry for the players from tee to green.  The green is deep with a sharp transition slope midway into the green creating an upper rear portion of the green.  An additional bunker sits back left of the green.  If players can carry their tee shot up over the front slope, there is fairway to the right of the green helping to create a bigger target area and giving the players a few more choices adjacent to the green.</p>
 
 	    </article>
