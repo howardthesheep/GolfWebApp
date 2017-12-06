@@ -3,37 +3,37 @@
 	    <article>
 			<p style="display:flex;justify-content:center;">
 				
-				<img src="img/Golf Images/hole1.jpg"> <!--HOLE IMAGE GOES HERE-->
+				<img src="img/Golf Images/hole9.jpg"> <!--HOLE IMAGE GOES HERE-->
 				<table style="width: 25%; margin-left: 10%;">
 					<tbody>
-						<th align="center" valign="top" colspan="2">Hole 1</th>
+						<th align="center" valign="top" colspan="2">Hole 9</th>
 						<tr>
 							<td>Par</td>
-							<td>4</td>
+							<td>5</td>
 						</tr>
 						<tr>
 							<td>Tournament</td>
-							<td>422</td>
+							<td>575</td>
 						</tr>
 						<tr>
 							<td>Back</td>
-							<td>403</td>
+							<td>545</td>
 						</tr>
 						<tr>
 							<td>Middle</td>
-							<td>378</td>
+							<td>524</td>
 						</tr>
 						<tr>
 							<td>Intermediate</td>
-							<td>353</td>
+							<td>446</td>
 						</tr>
 						<tr>
 							<td>Forward</td>
-							<td>321</td>
+							<td>338</td>
 						</tr>
 					</tbody>
 				</table>
 			</p>
-	      	<p>The opening hole at Old Hawthorne embodies many of the attributes of the other holes throughout the golf course, a beautiful natural setting, a wide playing corridor and a variety of strategic options.  The mid-length par 4 plays from atop a large bluff, sharply downhill from the tees to a green nestled up to Grindstone Creek.  Players who are distracted by the beauty of the surroundings run the risk of missing the subtleties of the strategy here.  The wide, bunkerless fairway will require some attention if players want to set up their approach shot to the green.  The crowned fairway will direct shots left or right depending upon where the tee shot lands.  The hole location and the deep greenside bunker will help influence which part of the fairway players will want to play to.</p>
+	      	<p>The 9th hole truly embodies the spirit and character of Old Hawthorne.  It is a longer par 5 playing up along a minor draw to a green sitting at the top end of the draw.  The first landing area sits on a slight plateau elevated from the tees.  Players who can reach this plateau with their tee shot will now be confronted with a number of options for their second shot.  The main fairway of the golf hole continues up the right-hand side of the draw but at the second landing area an alternate fairway extends down from the green on the left hand side of the draw giving the players a split fairway for their second shot.  The green sits at the end of this deep draw and horseshoes around a small deep pot bunker.  Hole location on any given day will be critical in determining the direction a player takes with their second shot and their ensuing approach shot to the green.  While the left-hand fairway is narrower than the right-hand fairway, the right-hand fairway has three large bunkers positioned throughout it and players will have to decide which challenges they would prefer to encounter as they approach the green.  At 575 yards from the tournament tee and uphill all the way from tee to green, this hole will play as a three shot par 5 for most players.</p>
 
 	    </article>
