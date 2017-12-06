@@ -212,9 +212,15 @@ aside
 	color: rgba(23, 121, 13, 0.75);
 }
 
+.content
+{
+	width: 100%;
+}
+
 #homepage
 {
 	width: 100%;
+	height: 800px;
 }
 
 main
