@@ -1,11 +1,9 @@
 <?php
     require("db_credentials.php");
     $conn = new mysqli($servername, $username, $password, $dbname);
-    $results = mysqli_query($conn,"SELECT * FROM `holes` LIMIT 1");
+    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='18'");
     $row = mysqli_fetch_array($results);
 ?>
-<h2>Hole Skeleton</h2>
-
 	    <article>
 			<p style="display:flex;justify-content:center;">
 				
