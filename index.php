@@ -7,8 +7,7 @@
 		<a href="/HoleSkeleton.php">
 	    	<h3>Hole Directory</h3>
 	    </a>
-	</aside>	
-
+	</aside>
     <aside class="widget">
 		<a href="/score.php">
 	    	<h3>Scorecard</h3>
