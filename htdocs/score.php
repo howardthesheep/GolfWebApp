@@ -9,14 +9,31 @@
     }
     function addScore(){
         $score = $_POST['score'];
-        $hole = $_POST['hole'] ? $_POST['hole'] : 'uncategorized';
+        $hole1 = $_POST['hole1'];
+        $hole2 = $_POST['hole2'];
+        $hole3 = $_POST['hole3'];
+        $hole4 = $_POST['hole4'];
+        $hole5 = $_POST['hole5'];
+        $hole6 = $_POST['hole6'];
+        $hole7 = $_POST['hole7'];
+        $hole8 = $_POST['hole8'];
+        $hole9 = $_POST['hole9'];
+        $hole10 = $_POST['hole10'];
+        $hole11 = $_POST['hole11'];
+        $hole12 = $_POST['hole12'];
+        $hole13 = $_POST['hole13'];
+        $hole14 = $_POST['hole14'];
+        $hole15 = $_POST['hole15'];
+        $hole16 = $_POST['hole16'];
+        $hole17 = $_POST['hole17'];
+        $hole18 = $_POST['hole18'];
         require('db_credentials.php');
         $mysqli = new mysqli($servername, $username, $password, $dbname);
         $hole = $mysqli->real_escape_string($hole);
         $score = $mysqli->real_escape_string($score);
         $user = $_SESSION['login_user'];
         
-        $sql = "INSERT INTO scores (username, hole, score, addDate) VALUES ('$user', '$hole', '$score', NOW())";
+        $sql = "INSERT INTO scores (username, hole1, hole2, hole3, hole4, hole5, hole6, hole7, hole8, hole9, hole10, hole11, hole12, hole13, hole14, hole15, hole16, hole17, hole18, score, addDate) VALUES ('$user', '$hole1', '$hole2', '$hole3', '$hole4', '$hole5', '$hole6', '$hole7', '$hole8', '$hole9', '$hole10', '$hole11', '$hole12', '$hole13', '$hole14', '$hole15', '$hole16', '$hole17', '$hole18', '$score', NOW())";
         if ($result = $mysqli->query($sql)) {
 				$message = "Score added!";
 			} else {
@@ -39,28 +56,15 @@
         <h2>Scorecard</h2>
         <div>
             <form action="score.php" method="post">
-                <input type="number" name="score" size="1">
-                <br>
-                <select name="hole">
-                    <option value="hole1">Hole 1</option>
-                    <option value="hole2">Hole 2</option>
-                    <option value="hole3">Hole 3</option>
-                    <option value="hole4">Hole 4</option>
-                    <option value="hole5">Hole 5</option>
-                    <option value="hole6">Hole 6</option>
-                    <option value="hole7">Hole 7</option>
-                    <option value="hole8">Hole 8</option>
-                    <option value="hole9">Hole 9</option>
-                    <option value="hole10">Hole 10</option>
-                    <option value="hole11">Hole 11</option>
-                    <option value="hole12">Hole 12</option>
-                    <option value="hole13">Hole 13</option>
-                    <option value="hole14">Hole 14</option>
-                    <option value="hole15">Hole 15</option>
-                    <option value="hole16">Hole 16</option>
-                    <option value="hole17">Hole 17</option>
-                    <option value="hole18">Hole 18</option>
-                </select>
+                <?php
+                $x = 1;
+                    while($x <= 18)
+                    {
+                        echo "<input type='number' value placeholder='Hole $x' name='hole$x' size='1'>";
+                        $x++;
+                    }
+                ?>
+                <input type="number" value placeholder="Score" name="score" size="1">
                 <input type="submit" name='submit' value="Submit">
             </form>
         </div>
