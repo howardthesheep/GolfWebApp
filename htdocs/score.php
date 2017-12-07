@@ -57,7 +57,7 @@
                     <option value="hole13">Hole 13</option>
                     <option value="hole14">Hole 14</option>
                     <option value="hole15">Hole 15</option>
-                    <option value="hole16">Hole 16/option>
+                    <option value="hole16">Hole 16</option>
                     <option value="hole17">Hole 17</option>
                     <option value="hole18">Hole 18</option>
                 </select>
