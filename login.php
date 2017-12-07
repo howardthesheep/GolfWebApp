@@ -41,6 +41,7 @@
                     <input type="submit" name="submit" value="Login">
                 </form>
                 <div><?php echo $error;?></div>
+                <a href="register.php">Register</a>
             </div>
         </div>
     </body>

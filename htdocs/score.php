@@ -66,6 +66,7 @@
                 <input type="number" value placeholder="Score" name="score" style="width: 5em">
                 <input type="submit" name='submit' value="Submit">
             </form>
+            <a href="logout.php">Logout</a>
         </div>
     </body>
 </html>
