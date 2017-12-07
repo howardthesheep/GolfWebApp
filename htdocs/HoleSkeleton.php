@@ -1,64 +1,142 @@
 <?php
-	 define("PAGE_TITLE", 'Hole');
+    define("PAGE_TITLE", 'Hole');
+    require("db_credentials.php");
+    $conn = new mysqli($servername, $username, $password, $dbname);
 	 include("template/header.php");
         if(isset($_POST['hole'])){
             switch($_POST['hole']){
                 case 1:
-                    include("Hole1.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='1'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 2:
-                    include("Hole2.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='2'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 3:
-                    include("Hole3.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='3'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 4:
-                    include("Hole4.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='4'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 5:
-                    include("Hole5.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='5'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 6:
-                    include("Hole6.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='6'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 7:
-                    include("Hole7.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='7'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 8:
-                    include("Hole8.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='8'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 9:
-                    include("Hole9.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='9'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 10:
-                    include("Hole10.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='10'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 11:
-                    include("Hole11.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='11'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 12:
-                    include("Hole12.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='12'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 13:
-                    include("Hole13.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='13'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 14:
-                    include("Hole14.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='14'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 15:
-                    include("Hole15.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='15'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 16:
-                    include("Hole16.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='16'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 17:
-                    include("Hole17.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='17'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
                 case 18:
-                    include("Hole18.php");
+                    $results = mysqli_query($conn,"SELECT * FROM `holes` WHERE id='18'");
+                    $row = mysqli_fetch_array($results);
+                    buildTable($row);
                     break;
             }
         }
+    function buildTable($row){
+        ?>
+        <article>
+			<p style="display:flex;justify-content:center;">
+				
+				<img src="img/Golf Images/hole<?php echo $row['id'];?>.jpg"> <!--HOLE IMAGE GOES HERE-->
+				<table style="width: 25%; margin-left: 10%;">
+					<tbody>
+						<th align="center" valign="top" colspan="2">Hole <?php echo $row['id'];?></th>
+						<tr>
+							<td>Par</td>
+							<td><?php echo $row['par'];?></td>
+						</tr>
+						<tr>
+							<td>Tournament</td>
+							<td><?php echo $row['tournament'];?></td>
+						</tr>
+						<tr>
+							<td>Back</td>
+							<td><?php echo $row['back'];?></td>
+						</tr>
+						<tr>
+							<td>Middle</td>
+							<td><?php echo $row['middle'];?></td>
+						</tr>
+						<tr>
+							<td>Intermediate</td>
+							<td><?php echo $row['intermediate'];?></td>
+						</tr>
+						<tr>
+							<td>Forward</td>
+							<td><?php echo $row['forward'];?></td>
+						</tr>
+					</tbody>
+				</table>
+			</p>
+	      	<p><?php echo $row['description'];?></p>
+<?php
+    }
+    
 ?>
 	 <section class="content">
 	 <main class="Hole">
@@ -85,7 +163,6 @@
                  <option value="18">Hole 18</option>
              </select>
          </form>
-
 	</main>
 </section>
 <?php include("template/footer.php");?>
