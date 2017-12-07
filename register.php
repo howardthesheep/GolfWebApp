@@ -9,8 +9,8 @@
         $mypassword = $_POST['pass'];
         $firstName = $_POST['fname'];
         $lastName = $_POST['lname'];
-//    hash('sha512',$mypassword);
-        $sql = "INSERT INTO users (username, password, fname, lname) VALUES ('$myusername', '$mypassword', '$firstName', '$lastName')";
+        $passEnc = password_hash($mypassword, PASSWORD_DEFAULT);
+        $sql = "INSERT INTO users (username, password, fname, lname) VALUES ('$myusername', '$passEnc', '$firstName', '$lastName')";
         $result = mysqli_query($conn,$sql);
         if($result){ 
             echo "Account successfully created!";
