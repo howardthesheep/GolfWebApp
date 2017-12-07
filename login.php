@@ -8,20 +8,26 @@
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         $myusername = mysqli_real_escape_string($conn,$_POST['user']);
         $mypassword = mysqli_real_escape_string($conn,$_POST['pass']);
-        $sql = "SELECT username FROM users WHERE username = '$myusername' and password = '$mypassword'";
+        $sql = "SELECT * FROM users WHERE username = '$myusername'";
         $result = mysqli_query($conn,$sql);
         $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-        $active = $row['active'];
-        $count = mysqli_num_rows($result);
+        if(password_verify($mypassword, $row['password']))
+        {
+            $active = $row['active'];
+            $count = mysqli_num_rows($result);
         
-        if($count == 1){
+            if($count == 1){
 //            session_register("myusername");
-            $_SESSION['login_user'] = $myusername;
-            $_SESSION['login']=true;
-            header("location: score.php");
+                $_SESSION['login_user'] = $myusername;
+                $_SESSION['login']=true;
+                header("location: score.php");
+            }
+            else{
+                $error = "Username or password incorrect. Try again...";
+            }
         }
         else{
-            $error = "Username or password incorrect. Try again...";
+            echo "error";
         }
     }
     if(isset($_POST['register'])){
@@ -45,7 +51,6 @@
                     <input type="submit" name="register" value="Register">
                 </form>
                 <div><?php echo $error;?></div>
-<!--                <a href="register.php">Register</a>-->
             </div>
         </div>
     </body>
