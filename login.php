@@ -27,7 +27,7 @@
             }
         }
         else{
-            echo "error";
+            $error = "Password does not match any records";
         }
     }
     if(isset($_POST['register'])){
