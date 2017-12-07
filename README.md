@@ -5,6 +5,17 @@ Contributors:
 Josh Brooks
 Parker Jones
 
+Table Definitions:
+users
+holes
+scores
+
+
+[ENTITY RELATIONSHIP DIAGRAM](/htdocs/docs/EERGolfDiagram.pdf)
+
+[Youtube Demonstration](http://www.youtube.com)
+
+
 --Video Script--
 
 Start with the about us page to introduce the people who worked on the project then move to the home page.
