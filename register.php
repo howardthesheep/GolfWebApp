@@ -2,6 +2,8 @@
     session_start();
     define("PAGE_TITLE", 'Register');
     include("template/header.php");
+    require ('db_credentials.php');
+    $conn = new mysqli($servername, $username, $password, $dbname);
     function createUser(){
         require ('db_credentials.php');
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -12,13 +14,22 @@
         $passEnc = password_hash($mypassword, PASSWORD_DEFAULT);
         $sql = "INSERT INTO users (username, password, fname, lname) VALUES ('$myusername', '$passEnc', '$firstName', '$lastName')";
         $result = mysqli_query($conn,$sql);
-        if($result){ 
-            echo "Account successfully created!";
+        if($result){
+            $message = "Account successfully created!";
         }
     }
     if(isset($_POST['submit']))
     {
-        createUser();
+        $usetemp = $_POST['user'];
+        $sql = "SELECT username FROM users WHERE username = '$usetemp'";
+        $dup = mysqli_query($conn,$sql);
+        if(mysqli_num_rows($dup)>0){
+            $message = "Username already taken";
+        }
+        else{
+            createUser();
+            $message = "Account successfully created!";
+        }
     }
 ?>
 <!DOCTYPE html>
@@ -41,7 +52,7 @@
                     <br>
                     <input type="submit" name="submit" value="Create account">
                 </form>
-                <div><?php echo $error;?></div>
+                <div><?php echo $message;?></div>
             </div>
         </div>
     </body>
