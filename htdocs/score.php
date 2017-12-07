@@ -50,7 +50,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Score entry</title>
     </head>
     <body>
         <h2>Scorecard</h2>
@@ -60,11 +59,11 @@
                 $x = 1;
                     while($x <= 18)
                     {
-                        echo "<input type='number' value placeholder='Hole $x' name='hole$x' size='1'>";
+                        echo "<input type='number' value placeholder='Hole $x' name='hole$x' style='width: 5em'>";
                         $x++;
                     }
                 ?>
-                <input type="number" value placeholder="Score" name="score" size="1">
+                <input type="number" value placeholder="Score" name="score" style="width: 5em">
                 <input type="submit" name='submit' value="Submit">
             </form>
         </div>
