@@ -46,6 +46,10 @@
         echo $user;
         addScore();
     }
+    if(isset($_POST['logout']))
+    {
+        header("location: logout.php");
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -64,9 +68,12 @@
                     }
                 ?>
                 <input type="number" value placeholder="Score" name="score" style="width: 5em">
+                <br>
                 <input type="submit" name='submit' value="Submit">
+                <br>
+                <input type="submit" name='logout' value="Logout">
             </form>
-            <a href="logout.php">Logout</a>
+            
         </div>
     </body>
 </html>
