@@ -40,6 +40,7 @@
                     <br>
                     <input type="submit" name="submit" value="Login">
                 </form>
+                <div><?php echo $error;?></div>
             </div>
         </div>
     </body>
