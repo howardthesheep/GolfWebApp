@@ -24,6 +24,9 @@
             $error = "Username or password incorrect. Try again...";
         }
     }
+    if(isset($_POST['register'])){
+        header("location: register.php");
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,9 +42,10 @@
                     <input type="password" name="pass" value placeholder="Password" maxlength="255" size="25">
                     <br>
                     <input type="submit" name="submit" value="Login">
+                    <input type="submit" name="register" value="Register">
                 </form>
                 <div><?php echo $error;?></div>
-                <a href="register.php">Register</a>
+<!--                <a href="register.php">Register</a>-->
             </div>
         </div>
     </body>
