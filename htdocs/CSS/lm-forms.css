@@ -35,6 +35,7 @@ input:not([type="button"]):not([type="submit"]), textarea, select
 	font-size:inherit;
 	padding:7px;
 	border:1px solid grey;
+	margin: 5px 5px;
 }
 
 textarea

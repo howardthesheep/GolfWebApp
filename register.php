@@ -16,6 +16,7 @@
         $result = mysqli_query($conn,$sql);
         if($result){
             $message = "Account successfully created!";
+            header("Location: score.php");
         }
     }
     if(isset($_POST['submit']))

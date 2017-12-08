@@ -63,18 +63,44 @@
                 $x = 1;
                     while($x <= 18)
                     {
-                        echo "<input type='number' value placeholder='Hole $x' name='hole$x' style='width: 5em'>";
+                        echo "<input class='holeInput' onchange='update()' type='number' value placeholder='Hole $x' name='hole$x' style='width: 5em;'>";
                         $x++;
                     }
                 ?>
-                <input type="number" value placeholder="Score" name="score" style="width: 5em">
-                <br>
-                <input type="submit" name='submit' value="Submit">
-                <br>
-                <input type="submit" name='logout' value="Logout">
+                <div style="display: inline-flex;">
+                    <h3>Total: </h3>
+                    <input type="number" value placeholder="Score" name="score" style="width: 5em">
+                    <br>
+                    <input type="submit" name='submit' value="Submit" style="margin: 5px 5px;">
+                    <br>
+                    <input type="submit" name='logout' value="Logout" style="margin: 5px 5px;">
+                </div>
             </form>
             
         </div>
     </body>
+
+    <script type="text/javascript">
+        function update()
+        {
+            var result = 0;
+            var inputs = document.getElementsByClassName("holeInput");
+
+            for (var i = 0; i < inputs.length; i++) {
+                var d = inputs[i].value;
+
+                if(d != "" && !isNaN(d))
+                {
+                    result += parseFloat(d);
+                } 
+            }
+            updateScore(result);
+        }
+        
+        function updateScore(num)
+        {
+            document.getElementsByName('score')[0].value = num;
+        }
+    </script>
 </html>
 <?php include("template/footer.php");?>
