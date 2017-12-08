@@ -20,7 +20,7 @@
 //            session_register("myusername");
                 $_SESSION['login_user'] = $myusername;
                 $_SESSION['login']=true;
-                header("location: score.php");
+                header("location: index.php");
             }
             else{
                 $error = "Username or password incorrect. Try again...";
