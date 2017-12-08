@@ -1,5 +1,5 @@
 # GolfWebApp
-This web application tracks scores and statistics of players at Old Hawthorne, a local golf course. This allows players to easily track scores overall and per hole right from their phone.
+This web application tracks scores and statistics of players at Old Hawthorne, a local golf course. This allows players to easily track scores overall and per hole right from their phone. This is done by with the user information, their scores, and course information kept in 3 different tables of a database.
 
 Contributors:
 Josh Brooks
